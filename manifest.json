@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "TenderSnap",
+  "version": "2.1",
+  "description": "Собирает ключевые данные о закупке со страниц торговых площадок и ЕИС в один клик и копирует в буфер обмена.",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title": "TenderSnap — скопировать данные тендера",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
